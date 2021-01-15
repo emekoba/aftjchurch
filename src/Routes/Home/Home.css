@@ -1,0 +1,30 @@
+#home_row1 {
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#home_row1 > img {
+	background-color: aliceblue;
+	height: 300px;
+	width: 350px;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+	#home_row1 {
+		height: 1100px;
+		flex-direction: column;
+		align-items: space-around;
+		justify-content: center;
+	}
+
+	#home_row1 > img {
+		margin-bottom: 30px;
+		width: 80%;
+		height: auto;
+		margin: 20px;
+		background-size: cover;
+	}
+}

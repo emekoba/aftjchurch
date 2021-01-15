@@ -1,3 +1,15 @@
+# introductions
+
+church site incorporating react, react-router-dom etc to build the site..hosted on firebase at this link https://aftjchurch.web.app
+
+# deviations from original site
+
+-removed the ugly scrollbar
+-changed the favicon to the aftj icon
+-changed a few icons
+
+-
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
