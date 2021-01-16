@@ -1,0 +1,12 @@
+#button {
+	height: 40px;
+	width: 84px;
+	background-color: #c5cad2;
+	display: grid;
+	place-items: center;
+}
+
+#button:hover {
+	color: white;
+	background-color: #9d9fa1;
+}

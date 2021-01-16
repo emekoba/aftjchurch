@@ -1,3 +1,21 @@
 .App {
 	text-align: center;
 }
+
+.removeElement {
+	display: none !important;
+}
+
+.addElement {
+	display: flex !important;
+}
+
+.useSlideAnimation {
+	transition: all 5s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+	.dismissOnDownScale {
+		display: none;
+	}
+}

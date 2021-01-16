@@ -31,6 +31,7 @@ function App() {
 
 			<Home />
 
+			<div style={{ height: 3000 }}></div>
 			<Footer />
 		</div>
 	);
