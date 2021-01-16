@@ -81,6 +81,8 @@ function Header() {
 		}
 	}
 
+	function toggleSearch() {}
+
 	return (
 		<div id="header">
 			<div id="header_topside">
@@ -109,7 +111,9 @@ function Header() {
 
 					<Button>Give</Button>
 
-					<img src={seacrhIcon} alt="search" />
+					<button onClick={toggleSearch}>
+						<img src={seacrhIcon} alt="search" />
+					</button>
 					<img src={cartIcon} alt="search" />
 				</div>
 
