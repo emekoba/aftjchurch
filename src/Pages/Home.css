@@ -10,7 +10,7 @@
 
 #home_row3 {
 	background-color: #f2f2f8;
-	height: 770px;
+	/* height: 770px; */
 	margin: 50px;
 	margin-top: 100px;
 	padding: 40px;
@@ -83,7 +83,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 
-	height: 350px;
+	/* height: 350px; */
 	display: grid;
 	place-items: center;
 	padding: 35px;
@@ -92,7 +92,7 @@
 }
 
 #tetraplane > img {
-	height: 350px;
+	/* height: 350px; */
 	width: 100%;
 	object-fit: cover;
 	object-position: top;
@@ -129,10 +129,12 @@
 #home_row7_img_list > img {
 	height: 100%;
 	width: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
 #home_row8 {
-	height: 700px;
+	/* height: 700px; */
 	background-color: #f2f2f8;
 	margin: 50px;
 	margin-top: 100px;
@@ -166,7 +168,6 @@
 	height: 45px;
 	width: 100%;
 	padding-left: 30px;
-	color: red;
 	font-size: 20px;
 }
 
@@ -243,7 +244,8 @@
 	#home_row3 {
 		flex-direction: column;
 		background-color: darksalmon;
-		margin-bottom: 400px;
+		/* margin-bottom: 400px; */
+		margin: 10px;
 	}
 
 	#pastors_names {
@@ -268,6 +270,7 @@
 	#tetraplane {
 		display: flex;
 		flex-direction: column;
+		margin: 10px;
 	}
 
 	#home_row4 {
@@ -277,6 +280,8 @@
 	#home_row7 {
 		display: flex;
 		flex-direction: column;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	#home_row7_img_list {
@@ -286,8 +291,20 @@
 		/* grid-gap: 50px; */
 	}
 	#home_row7_img_list > img {
-		height: 250px;
+		height: auto;
 		width: 100%;
+	}
+
+	#home_row8 {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#home_row8_row2 {
+		padding: 0px;
+	}
+	#home_row8_row2 > div {
+		display: none;
 	}
 
 	#home_row8_btns {
@@ -298,14 +315,35 @@
 		margin: 0px;
 	}
 
+	#home_row8_inputbox {
+		/* display: grid; */
+		/* grid-template-rows: 1fr 1fr; */
+	}
+
 	#home_row9 {
 		display: flex;
 		flex-direction: column;
+
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	#home_row9_col1 {
 		margin: 0px;
 		margin-top: 50px;
+	}
+
+	#home_row9_col1_row2 {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		margin-top: 0px;
+		justify-content: flex-start;
+		padding: 0px;
+	}
+	#home_row9_col1_row2 > input {
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 0px;
 	}
 }
 

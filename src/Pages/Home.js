@@ -171,7 +171,7 @@ function Home() {
 			/>
 
 			<div id="tetraplane">
-				<div style={{ backgroundImage: `url(${needPrayer})` }} />
+				<img alt="" src={needPrayer} />
 
 				<div>
 					<h3>Need Prayer?</h3>

@@ -27,11 +27,11 @@
 }
 
 #footer_row2 {
-	height: 60px;
+	height: 70px;
 	background-color: #c5cad2;
 	display: flex;
 	padding-left: 100px;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 #contact > div {
@@ -59,11 +59,13 @@
 @media screen and (max-width: 800px) {
 	#footer_row1 {
 		padding-bottom: 50px;
-		display: grid;
-		/* justify-content: center;
-		flex-direction: column; */
-		grid-template-columns: 1fr 1fr;
-		place-items: center;
+		display: flex;
+		/* justify-content: center; */
+		flex-direction: column;
+		/* align-items: center; */
+
+		/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+		/* place-items: center; */
 	}
 	#footer_row1 > div {
 		/* align-items: center; */
@@ -75,5 +77,6 @@
 		text-align: center;
 		display: grid;
 		place-items: center;
+		padding-top: 0px;
 	}
 }
