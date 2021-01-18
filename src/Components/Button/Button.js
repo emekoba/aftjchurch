@@ -24,6 +24,28 @@ function Button(props) {
 					{children}
 				</button>
 			)}
+
+			{type === "tetraplane" && (
+				<button style={style} id="tetrabutton" onClick={onClick}>
+					{children}
+				</button>
+			)}
+
+			{type === "subscribe" && (
+				<button
+					style={{ backgroundColor: "#f2f2f8" }}
+					id="subscribe_btn"
+					onClick={onClick}
+				>
+					{children}
+				</button>
+			)}
+
+			{type === "icon" && (
+				<button style={{ minWidth: 50 }} id="icon_btn" onClick={onClick}>
+					{children}
+				</button>
+			)}
 		</>
 	);
 }

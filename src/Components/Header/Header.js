@@ -70,7 +70,7 @@ function Header() {
 	}
 
 	function toggleBottomMenu() {
-		let bottom_action = document.getElementById("header_bottomside_action");
+		let bottom_action = document.getElementById("sidebar");
 
 		if (bottom_action.classList.contains("removeElement")) {
 			bottom_action.classList.remove("removeElement");
@@ -142,6 +142,30 @@ function Header() {
 				id="header_bottomside_action"
 				className="removeElement useSlideAnimation"
 			>
+				<div id="action_btn" className="btn_effect">
+					Home
+				</div>
+
+				<div id="action_btn" className="btn_effect">
+					About
+				</div>
+
+				<div id="action_btn" className="btn_effect">
+					Service Times
+				</div>
+
+				<div id="action_btn" className="btn_effect">
+					Events
+				</div>
+
+				<div id="action_btn" className="btn_effect">
+					Store
+				</div>
+
+				<Button>Give</Button>
+			</div>
+
+			<div id="sidebar" className="removeElement useSlideAnimation">
 				<div id="action_btn" className="btn_effect">
 					Home
 				</div>

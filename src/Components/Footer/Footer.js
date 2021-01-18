@@ -1,15 +1,15 @@
 import React from "react";
 import Button from "../Button/Button";
 import "./Footer.css";
-import facebook from "../../Resources/Icons/cart.png";
-import instagram from "../../Resources/Icons/cart.png";
-import twitter from "../../Resources/Icons/cart.png";
-import google from "../../Resources/Icons/cart.png";
+import facebook from "../../Resources/logo/facebooklogo.png";
+import instagram from "../../Resources/logo/instagramlogo.png";
+import twitter from "../../Resources/logo/twitterlogo.png";
+import youtube from "../../Resources/logo/youtubelogo.png";
 
 function Footer() {
 	return (
-		<div className="footer">
-			<div className="footer_row1">
+		<div id="footer">
+			<div id="footer_row1">
 				<div>
 					<h3>Quick Links</h3>
 					<Button type="footer">My Account</Button>
@@ -84,7 +84,7 @@ function Footer() {
 							<Button type="icon">
 								<img
 									alt="search"
-									src={google}
+									src={youtube}
 									style={{ height: "20px", width: "20px" }}
 								/>
 							</Button>
@@ -93,7 +93,7 @@ function Footer() {
 				</div>
 			</div>
 
-			<div className="footer_row2">
+			<div id="footer_row2">
 				@Copyright 2020. AFTJ Digital. All Rights Reserved
 			</div>
 		</div>

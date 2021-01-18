@@ -25,6 +25,25 @@
 	animation: pulse 2s infinite;
 }
 
+#tetrabutton {
+	height: 50px;
+	width: 200px;
+	border: 1px solid;
+}
+
+#subscribe_btn {
+	background-color: "#f2f2f8";
+	height: 50px;
+	width: 200px;
+}
+#subscribe_btn:hover {
+	transform: none;
+}
+
+#footer_btn {
+	height: 50px;
+}
+
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
